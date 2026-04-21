@@ -6,6 +6,7 @@ export default function ProductCard({ product }) {
             <div className="card-body">
                 <h2 className="card-title">{product.name}</h2>
                 <p>{product.category}</p>
+                <p>Price : {product.price}</p>
                 <div className="justify-end card-actions">
                     <button className="btn btn-primary">Buy Now</button>
                 </div>

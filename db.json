@@ -2,9 +2,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Mouse",
+      "name": "Wireless Cat Mouse",
       "category": "Electronics",
-      "price": 15.99,
+      "price": 20.99,
       "in_stock": true
     },
     {
