@@ -5,6 +5,7 @@ export default function Navbar() {
     const links = <>
         <li><Link href= '/'>Home</Link></li>
         <li><Link href='/posts'>Posts</Link></li>
+        <li><Link href='/Products'>Products</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">

@@ -1,67 +1,39 @@
-[
-  {
-    "id": 1,
-    "name": "Wireless Noise-Cancelling Headphones",
-    "category": "Electronics",
-    "price": 149.99,
-    "currency": "USD",
-    "stock": 85,
-    "rating": 4.7,
-    "brand": "SoundWave",
-    "sku": "SW-WNC-001",
-    "description": "Premium over-ear headphones with active noise cancellation and 30-hour battery life.",
-    "tags": ["audio", "wireless", "noise-cancelling"]
-  },
-  {
-    "id": 2,
-    "name": "Ergonomic Office Chair",
-    "category": "Furniture",
-    "price": 349.00,
-    "currency": "USD",
-    "stock": 42,
-    "rating": 4.5,
-    "brand": "ComfortPro",
-    "sku": "CP-EOC-202",
-    "description": "Adjustable lumbar support chair with breathable mesh back and armrests.",
-    "tags": ["office", "ergonomic", "seating"]
-  },
-  {
-    "id": 3,
-    "name": "Stainless Steel Water Bottle",
-    "category": "Kitchen",
-    "price": 24.95,
-    "currency": "USD",
-    "stock": 210,
-    "rating": 4.8,
-    "brand": "HydroLife",
-    "sku": "HL-SSWB-500",
-    "description": "500ml double-wall insulated bottle, keeps drinks cold 24hrs or hot 12hrs.",
-    "tags": ["hydration", "eco-friendly", "insulated"]
-  },
-  {
-    "id": 4,
-    "name": "Running Shoes",
-    "category": "Footwear",
-    "price": 89.99,
-    "currency": "USD",
-    "stock": 130,
-    "rating": 4.6,
-    "brand": "SwiftStep",
-    "sku": "SS-RS-M42",
-    "description": "Lightweight breathable running shoes with cushioned sole for all terrains.",
-    "tags": ["sports", "running", "footwear"]
-  },
-  {
-    "id": 5,
-    "name": "Smart LED Desk Lamp",
-    "category": "Lighting",
-    "price": 59.99,
-    "currency": "USD",
-    "stock": 67,
-    "rating": 4.4,
-    "brand": "LumiDesk",
-    "sku": "LD-SLED-300",
-    "description": "Touch-controlled desk lamp with 5 color temperatures, USB charging port, and memory function.",
-    "tags": ["lighting", "smart", "office"]
-  }
-]
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 15.99,
+      "in_stock": true
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 29.99,
+      "in_stock": true
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 49.99,
+      "in_stock": false
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
+      "price": 79.99,
+      "in_stock": true
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 25.5,
+      "in_stock": true
+    }
+  ]
+}
